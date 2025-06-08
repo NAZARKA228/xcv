@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій магазин - Товари</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="products.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">MyShop</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="products.html">Товари</a></li>
+                    <li><a href="cart.html">Кошик</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 style="margin: 1rem 0;">Наші товари</h1>
+        
+        <div class="products">
+            <!-- Товар 1 -->
+            <div class="product-card">
+                <img src="https://cdn.27.ua/sc--media--prod/default/c3/bd/cf/c3bdcf96-06b4-4125-b2cc-f78d10dbdfcf.jpg" alt="Товар 1" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Свічки</h3>
+                    <p class="product-price">230(грн)-20шт</p>
+                    <button class="btn add-to-cart" data-id="1">Купити</button>
+                </div>
+            </div>
+
+            <!-- Товар 2 -->
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm2TfbXN3oHo3yLcmbFkkwGnjr9kBwhb7t3Q&s" alt="Товар 2" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Камні-духовні</h3>
+                    <p class="product-price">549(грн)-15шт</p>
+                    <button class="btn add-to-cart" data-id="2">Купити</button>
+                </div>
+            </div>
+
+            <!-- Товар 3 -->
+            <div class="product-card">
+                <img src="images/product3.jpg" alt="Товар 3" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Назва товару 3</h3>
+                    <p class="product-price">1299 грн</p>
+                    <button class="btn add-to-cart" data-id="3">Купити</button>
+                </div>
+            </div>
+
+            <!-- Товар 4 -->
+            <div class="product-card">
+                <img src="images/product4.jpg" alt="Товар 4" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Назва товару 4</h3>
+                    <p class="product-price">599 грн</p>
+                    <button class="btn add-to-cart" data-id="4">Купити</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 MyShop. Всі права захищені.</p>
+        </div>
+    </footer>
+
+    <script src = "product.js"></script>
+</body>
+</html>

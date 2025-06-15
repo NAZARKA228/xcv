@@ -7,14 +7,14 @@
 }
 
 body {
-    background-color: #f5f5f5;
+    background-color: #979599;
     color: #333;
     line-height: 1.6;
 }
 
 header {
     background: linear-gradient(135deg, #6e8efb, #a777e3);
-    color: white;
+    background-image: url(https://img.goodfon.ru/wallpaper/big/5/f2/glaz-eye-uroboros-ouroboros-ruki-hands-sakralnaia-geometriia.webp);
     padding: 1rem 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
@@ -23,6 +23,7 @@ header {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
+    padding-right: 100px;
 }
 
 nav ul {
@@ -74,4 +75,13 @@ footer {
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
+}
+
+
+
+.describe p{
+    background-color: #9a6dd1;
+    border: solid lightgrey;
+    border-radius: 30px;
+    padding:30px;
 }
